@@ -7,7 +7,9 @@ function init() {
 
 function middleware(app, plugin, generalConfig) {
     debug('Loading redis-cache-plugin');
-    app.use(service(plugin).middleware);
+    const instance = service(plugin);
+    app.use(instance.middleware);
+    app.use(instance.checkFlushCache);
 }
 
 
