@@ -7,17 +7,25 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "sql",
-    "postgres",
-    "postgresql",
-    "json"
+    "Control Tower",
+    "redis",
+    "cache",
+    "microservice"
   ],
   "author": {
-    "name": "Raul Requero"
+    "name": "Vizzuality",
+    "email": "hello@vizzuality.com",
+    "url": "http://vizzuality.com/"
   },
   "contributors": [
     {
+      "name": "Raul Requero"
+    },
+    {
       "name": "Sergio Gordillo"
+    },
+    {
+      "name": "Enrique Cornejo"
     },
     {
       "name": "Tiago Garcia",
