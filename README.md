@@ -1,1 +1,1 @@
-# Stadistics plugin to Control tower api-gateway
+# Redis cache plugin for Control Tower - Skydipper edition

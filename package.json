@@ -1,14 +1,30 @@
 {
-  "name": "ct-redis-cache-plugin",
-  "version": "1.2.3",
-  "description": "",
+  "name": "sd-ct-redis-cache-plugin",
+  "version": "2.0.0",
+  "description": "Redis cache plugin for Control Tower - Skydipper edition",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "sql",
+    "postgres",
+    "postgresql",
+    "json"
+  ],
+  "author": {
+    "name": "Raul Requero"
+  },
+  "contributors": [
+    {
+      "name": "Sergio Gordillo"
+    },
+    {
+      "name": "Tiago Garcia",
+      "url": "https://github.com/tiagojsag"
+    }
+  ],
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^3.4.1",
     "debug": "^2.2.0",
